@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>PSHS Knowledge Hub - CLC</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link href="./css/styles.css" rel="stylesheet">
+        <style>
+            .card {
+                background-color: #a4a4af;
+            }
+        </style>
+    </head>
+    <body class="container-fluid">
+        <header>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="./">
+                        <img src="./img/pshs.png" alt="PSHS-CLC" width="270" height="50">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="navbar-nav order-lg-2">
+                        <div class="row">
+                            <div class="col">
+                                <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                    <img src="./img/account.svg" alt="" width="40" height="40">
+                                </button>
+                                <div class="collapse" id="collapseExample">
+                                    <button class="btn btn-secondary" type="button" onclick="logout()">Log out</button>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <a href="#" class="nav-link">
+                                    <img src="./img/notifications.svg" alt="" width="40" height="40">
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a href="#" class="nav-link">
+                                    <img src="./img/chat.svg" alt="" width="40" height="40">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link" href="./">Home</a>
+                            <a class="nav-link active" aria-current="page" href="./courses.html">My Courses</a>
+                            <a class="nav-link" href="./authors.html">Authors</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <article class="container-fluid">
+            <h1 class="my-2">Course Overview</h1>
+            <main>
+                <div class="row">
+                    <div class="col-sm-6 p-2">
+                        <div class="card p-0 m-3">
+                            <h1 class="card-header">Biology 1</h1>
+                            <div class="card-body">
+                                <div class="d-flex">
+                                    <img src="./img/teachers/bio.jpg" alt="" class="rounded-circle mx-1" width="50" height="50">
+                                    <div class="flex-column">
+                                        <h4 class="card-subtitle mb-1">Jed Aries Castro</h4>
+                                        <h5 class="card-subtitle mb-2 text-muted">Teacher</h5>  
+                                    </div>
+                                </div>
+                                <h6 class="card-subtitle mb-2">Fundamentals of Biology 1</h6>  
+                                <p class="card-text">
+                                    Fundamentals of Biology 1 focuses on the science of biology.  The course content summarizes the evolution and the structure-to-function relationships and explains the unity and diversity of life forms and processes, the understanding of the basic mechanisms of life and anchor the biological knowledge how each organism connects in the interwoven story of life.
+                                </p>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 p-2">
+                        <div class="card p-0 m-3">
+                            <h1 class="card-header">Chemistry 1</h1>
+                            <div class="card-body">
+                                <div class="d-flex">
+                                    <img src="./img/teachers/chem.jpg" alt="" class="rounded-circle mx-1" width="50" height="50">
+                                    <div class="flex-column">
+                                        <h4 class="card-subtitle mb-1">Princess Ann Digneneng</h4>
+                                        <h5 class="card-subtitle mb-2 text-muted">Teacher</h5>  
+                                    </div>
+                                </div>
+                                <h6 class="card-subtitle mb-2">General Inorganic Chemistry 1</h6>  
+                                <p class="card-text">
+                                    General Inorganic Chemistry 1 is designed to develop the critical thinking, creativity, collaboration and communication skills of Grade 9 students on the basic chemistry principles, the ability to conduct and design experiments, and the problem-solving and manipulative skills that prepares them for advanced chemistry subjects.
+                                </p>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 p-2">
+                        <div class="card p-0 m-3">
+                            <h1 class="card-header">Computer Science 3</h1>
+                            <div class="card-body">
+                                <div class="d-flex">
+                                    <img src="./img/teachers/cs.jpg" alt="" class="rounded-circle mx-1" width="50" height="50">
+                                    <div class="flex-column">
+                                        <h4 class="card-subtitle mb-1">Jan Michael Ibañez</h4>
+                                        <h5 class="card-subtitle mb-2 text-muted">Teacher</h5>  
+                                    </div>
+                                </div>
+                                <h6 class="card-subtitle mb-2">Client-Side Web Development</h6>  
+                                <p class="card-text">
+                                    Client-Side Web Development is designed to employ output-based learning and focuses on client-side web development using HTML, CSS and JavaScript.  The client-side programming explore the students in writing code that will run on the client, and is done in languages that can be executed by the browser, such as JavaScript as it motivates the students to collaborate and participate in various social issues, and learn the value of teamwork to accomplish various projects.
+                                </p>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 p-2">
+                        <div class="card p-0 m-3">
+                            <h1 class="card-header">English 3</h1>
+                            <div class="card-body">
+                                <div class="d-flex">
+                                    <img src="./img/teachers/eng.jpg" alt="" class="rounded-circle mx-1" width="50" height="50">
+                                    <div class="flex-column">
+                                        <h4 class="card-subtitle mb-1">Angelou Dizon</h4>
+                                        <h5 class="card-subtitle mb-2 text-muted">Teacher</h5>  
+                                    </div>
+                                </div>
+                                <h6 class="card-subtitle mb-2">Communication Arts 3 and English and American Literature</h6>  
+                                <p class="card-text">
+                                    Communication Arts 3 and English and American Literature aims to develop competence in communication through literature-based lessons designed to enhance further the five (5) macro-skills (but giving emphasis on the integration of analytical web reading and participation with critical viewing) through readings and analysis of English and American literary texts.  It develops artistic oral, written, and web texts that speak of humaneness, patriotism, and other values that express appreciation of and pride for Philippine literature, culture, and traditions and understanding of western views as gleaned from selected English and American literary materials.    
+                                </p>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 p-2">
+                        <div class="card p-0 m-3">
+                            <h1 class="card-header">Filipino 3</h1>
+                            <div class="card-body">
+                                <div class="d-flex">
+                                    <img src="./img/teachers/fili.jpg" alt="" class="rounded-circle mx-1" width="50" height="50">
+                                    <div class="flex-column">
+                                        <h4 class="card-subtitle mb-1">Charisse Mendoza</h4>
+                                        <h5 class="card-subtitle mb-2 text-muted">Teacher</h5>  
+                                    </div>
+                                </div>
+                                <h6 class="card-subtitle mb-2">Retorika Pagsusuri at Pagpapahalagang Pampanitikan</h6>  
+                                <p class="card-text">
+                                    Retorika, Pagsusuri at Pagpapahalagang Pampanitikan ay nakatuon sa pagtatamo ng mapanuring pag-iisip, kakayahang komunikatibo, pag-unawa at pagsusuri ng iba't ibang genre ng panitikang Filipino gamit ang iba't ibang dulog pampanitikan.  Nalilinang ang mga makrong kasanayang pangkomunikatibo (pakikinig, pagsasalita, pagbasa, pagsulat, at panonood) at pagpapahalaga sa iba't ibang genre ng panitikang Filipino, piling akdang Asyano at ang nobelang El Filibusterismo ni Dr. Jose Rizal.
+                                </p>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 p-2">
+                        <div class="card p-0 m-3">
+                            <h1 class="card-header">Statistics 1</h1>
+                            <div class="card-body">
+                                <div class="d-flex">
+                                    <img src="./img/teachers/stats.jpg" alt="" class="rounded-circle mx-1" width="50" height="50">
+                                    <div class="flex-column">
+                                        <h4 class="card-subtitle mb-1">Crisostomo Bato</h4>
+                                        <h5 class="card-subtitle mb-2 text-muted">Teacher</h5>  
+                                    </div>
+                                </div>
+                                <h6 class="card-subtitle mb-2">Introduction to Statistics</h6>  
+                                <p class="card-text">
+                                    Introduction to Statistics introduce students to appreciating the importance of Statistics as used in various fields and scientific application of statistical methods and principles as to the collection, description, presentation, analysis and interpretation of data.  The course includes the importance and appreciation of statistical methods and of computer software in solving research problems in the scientific, technological and other fields to improve their critical and analytical thinking skills.
+                                </p>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 p-2">
+                        <div class="card p-0 m-3">
+                            <h1 class="card-header">Mathematics 3</h1>
+                            <div class="card-body">
+                                <div class="d-flex">
+                                    <img src="./img/teachers/math.jpg" alt="" class="rounded-circle mx-1" width="50" height="50">
+                                    <div class="flex-column">
+                                        <h4 class="card-subtitle mb-1">Mar Joseph Fernandez</h4>
+                                        <h5 class="card-subtitle mb-2 text-muted">Teacher</h5>  
+                                    </div>
+                                </div>
+                                <p class="card-text">
+                                    Mathematics 3 is a 1-unit subject. This subject introduces basic plane and coordinate geometry and transformational geometry using an inquiry-based and discovery approach under remote or blended learning. It continues the study of functions, in particular, different types of functions, analysis of graphs, and properties of functions using ICT tools and manipulative devices, and viewing functions as a way to model real life data. The course ends with a discussion of sequences, series, Pascal's Triangle, and their applications.
+                                </p>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 p-2">
+                        <div class="card p-0 m-3">
+                            <h1 class="card-header">Music 3</h1>
+                            <div class="card-body">
+                                <div class="d-flex">
+                                    <img src="./img/teachers/music.jpg" alt="" class="rounded-circle mx-1" width="50" height="50">
+                                    <div class="flex-column">
+                                        <h4 class="card-subtitle mb-1">Paul Vincent Prado</h4>
+                                        <h5 class="card-subtitle mb-2 text-muted">Teacher</h5>  
+                                    </div>
+                                </div>
+                                <h6 class="card-subtitle mb-2">History and Characteristics of Western Music</h6>  
+                                <p class="card-text">
+                                    History and Characteristics of Western Music cover topics concerning the transformation of music from different epochs starting from Baroque Period to the 20th century.  It discusses the prominent composer and their contributions in the field of music.  This course provide opportunities for our scholars to hone their musicality through a variety of musical activities like listening, singing, composing, and playing musical instruments.
+                                </p>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 p-2">
+                        <div class="card p-0 m-3">
+                            <h1 class="card-header">Health 3</h1>
+                            <div class="card-body">
+                                <div class="d-flex">
+                                    <img src="./img/teachers/health.jpg" alt="" class="rounded-circle mx-1" width="50" height="50">
+                                    <div class="flex-column">
+                                        <h4 class="card-subtitle mb-1">Noel Vital</h4>
+                                        <h5 class="card-subtitle mb-2 text-muted">Teacher</h5>  
+                                    </div>
+                                </div>
+                                <h6 class="card-subtitle mb-2">My Family and Me:  Family Health and Disease Prevention</h6>  
+                                <p class="card-text">
+                                    Health 3 focuses on the changes on all the dimensions of health with emphasis on Family Health and Disease Prevention. Family Health focuses on gender and human sexuality, teenage concerns in sexuality, relationship, and responsible parenthood. Disease Prevention focuses on prevention and control of communicable, non-communicable, and lifestyle diseases.
+                                </p>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 p-2">
+                        <div class="card p-0 m-3">
+                            <h1 class="card-header">Physical Education 3</h1>
+                            <div class="card-body">
+                                <div class="d-flex">
+                                    <img src="./img/teachers/pe.jpg" alt="" class="rounded-circle mx-1" width="50" height="50">
+                                    <div class="flex-column">
+                                        <h4 class="card-subtitle mb-1">Marvin Anthony Alagos</h4>
+                                        <h5 class="card-subtitle mb-2 text-muted">Teacher</h5>  
+                                    </div>
+                                </div>
+                                <h6 class="card-subtitle mb-2">Group Oriented Activities in Sport and Leisure Education 1</h6>  
+                                <p class="card-text">
+                                    Group Oriented Activities in Sport and Leisure Education 1 aims to enhance physical literacy of the student by developing mastery over general and specific sports skills as well as introduce concepts on fair play and teamwork through team games / sports and other group based activities.  The course aims to further promote movement education through performance and officiating in individual, dual, team sports and games, performance and appraisal in group dance and self and peer assessment in physical fitness through the development and demonstration of advanced psychomotor skills in informal and formal physical activity settings while encouraging cooperative behavior towards positive attitudes in physical activity.
+                                </p>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 p-2">
+                        <div class="card p-0 m-3">
+                            <h1 class="card-header">Values Education 3</h1>
+                            <div class="card-body">
+                                <div class="d-flex">
+                                    <img src="./img/teachers/valed.jpg" alt="" class="rounded-circle mx-1" width="50" height="50">
+                                    <div class="flex-column">
+                                        <h4 class="card-subtitle mb-1">Michelle Ocampo</h4>
+                                        <h5 class="card-subtitle mb-2 text-muted">Teacher</h5>  
+                                    </div>
+                                </div>
+                                <p class="card-text">
+                                    Val Ed 3 aims to contribute to the development of future science practitioners and researchers in a way consistent with the aims of the PSHS curriculum and the intended qualities of PSHS graduates. The program supports the adolescent student:
+                                    <br>
+                                    1. in discerning what, to oneself, are the values and standards that will guide one's judgments and decisions;  and
+                                    <br>
+                                    2. in using these values and standards in the pursuit of personal and professional growth and in one's engagement in communities and social groups.
+                                    
+                                </p>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 p-2">
+                        <div class="card p-0 m-3">
+                            <h1 class="card-header">Physics 1</h1>
+                            <div class="card-body">
+                                <div class="d-flex">
+                                    <img src="./img/teachers/physics.jpg" alt="" class="rounded-circle mx-1" width="50" height="50">
+                                    <div class="flex-column">
+                                        <h4 class="card-subtitle mb-1">Jan-Derrick Junio</h4>
+                                        <h5 class="card-subtitle mb-2 text-muted">Teacher</h5>  
+                                    </div>
+                                </div>
+                                <h6 class="card-subtitle mb-2">Fundamentals of Physics 1</h6>  
+                                <p class="card-text">
+                                    Fundamentals of Physics 1 is designed to introduce formal definitions of physical quantities and familiarize students with basic problem solving while giving a strong foundation in the fundamental concepts and principles in Physics.  The course cover topics mainly on Mechanics specifically on motion, forces, energy, and momentum and are taught through active and experiential learning.
+                                </p>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 p-2">
+                        <div class="card p-0 m-3">
+                            <h1 class="card-header">Social Sciences 3</h1>
+                            <div class="card-body">
+                                <div class="d-flex">
+                                    <img src="./img/teachers/socsci.jpg" alt="" class="rounded-circle mx-1" width="50" height="50">
+                                    <div class="flex-column">
+                                        <h4 class="card-subtitle mb-1">Marinel Sanchez</h4>
+                                        <h5 class="card-subtitle mb-2 text-muted">Teacher</h5>  
+                                    </div>
+                                </div>
+                                <h6 class="card-subtitle mb-2">World History 2</h6>  
+                                <p class="card-text">
+                                    World History 2 employs a multi-disciplinary approach in studying world history which maps humanity's progress from the 1400's to the contemporary period.  It traces the historical transitions of the world from the Great Global Convergence to Global Interdependence of the present.  It focuses on three essential themes:  humans and the environment, humans and other humans, and humans and ideas.  Geographical, political, social, cultural, religious, scientific and technological implications of major transitions shall be discussed to help develop the critical thinking skills in the context of studying history.
+                                </p>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 p-2">
+                        <div class="card p-0 m-3">
+                            <h1 class="card-header">Homeroom 9 - Samat</h1>
+                            <div class="card-body">
+                                <div class="d-flex">
+                                    <img src="./img/teachers/fili.jpg" alt="" class="rounded-circle mx-1" width="50" height="50">
+                                    <div class="flex-column">
+                                        <h4 class="card-subtitle mb-1">Charisse Mendoza</h4>
+                                        <h5 class="card-subtitle mb-2 text-muted">Teacher</h5>  
+                                    </div>
+                                </div>
+                                <h6 class="card-subtitle mb-2">Homeroom 9 - Samat</h6>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </article>
+        <script src="./login.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    </body>
+</html>

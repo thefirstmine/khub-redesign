@@ -10,3 +10,15 @@ nav {
     font-size: 20px;
     font-weight: 500;
 }
+main {
+    background-color: #d2d2db;
+    border-radius: 20px;
+}
+h1 {
+    font-weight: 600;
+}
+@media only screen and (max-width: 768px) {
+    .navbar-brand {
+        display: none;
+    }
+} 
