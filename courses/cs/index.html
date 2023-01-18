@@ -61,7 +61,7 @@
                 </div>
             </nav>
         </header>
-        <article class="container-fluid">
+        <div class="container-fluid">
             <h1>Computer Science 3</h1>
             <main class="container-fluid p-2">
                 <nav>
@@ -69,9 +69,9 @@
                       <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Home</button>
                       <button class="nav-link" id="nav-grades-tab" data-bs-toggle="tab" data-bs-target="#nav-grades" type="button" role="tab" aria-controls="nav-grades" aria-selected="false">Grades</button>  
                       <button class="nav-link" id="nav-quarter-tab" data-bs-toggle="tab" data-bs-target="#nav-quarter" type="button" role="tab" aria-controls="nav-quarter" aria-selected="false">1st Quarter</button>  
-                      <button class="nav-link" id="nav-disabled-tab" data-bs-toggle="tab" data-bs-target="#nav-disabled" type="button" role="tab" aria-controls="nav-disabled" aria-selected="false" disabled>2nd Quarter</button>
-                      <button class="nav-link" id="nav-disabled-tab" data-bs-toggle="tab" data-bs-target="#nav-disabled" type="button" role="tab" aria-controls="nav-disabled" aria-selected="false" disabled>3rd Quarter</button>
-                      <button class="nav-link" id="nav-disabled-tab" data-bs-toggle="tab" data-bs-target="#nav-disabled" type="button" role="tab" aria-controls="nav-disabled" aria-selected="false" disabled>4th Quarter</button>
+                      <button class="nav-link" id="nav-disabled-tab" data-bs-toggle="tab" data-bs-target="#nav-disabled" type="button" role="tab" aria-selected="false" disabled>2nd Quarter</button>
+                      <button class="nav-link" id="nav-disabled-tab2" data-bs-toggle="tab" data-bs-target="#nav-disabled2" type="button" role="tab" aria-selected="false" disabled>3rd Quarter</button>
+                      <button class="nav-link" id="nav-disabled-tab3" data-bs-toggle="tab" data-bs-target="#nav-disabled3" type="button" role="tab" aria-selected="false" disabled>4th Quarter</button>
                     </div>
                   </nav>
                   <div class="tab-content" id="nav-tabContent">
@@ -83,12 +83,12 @@
                                 current web standards. The course motivates students to collaborate and participate in values social issues
                                 and learn the value of teamwork to accomplish various projects. </p>
                             <div class="text-center">
-                                <a href="../../assets/CS3.pdf" type="button" class="btn btn-light mb-4 fs-5 fw-bold">
+                                <button type="button"  onclick="window.location.href = '../../assets/CS3.pdf'" class="btn btn-light mb-4 fs-5 fw-bold">
                                     <img src="../../img/document.svg" alt="" width="50">Course Syllabus
-                                </a> <br>
-                                <a href="#" type="button" class="btn btn-light fs-5 fw-bold">
+                                </button> <br>
+                                <button type="button" class="btn btn-light fs-5 fw-bold">
                                     <img src="../../img/megaphone.svg" alt="" width="50">Announcements
-                                </a>
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -188,7 +188,7 @@
                                     <h5>Course Materials</h5>
                                     <a href="#">
                                         <div class="d-flex border border-secondary rounded p-1 my-2">
-                                            <img src="../../img/folder.svg" class="mx-1"alt="" width="40" height="40">
+                                            <img src="../../img/folder.svg" class="mx-1" alt="" width="40" height="40">
                                             <div class="flex-column">
                                                 <h6 class="card-subtitle mb-1">1Q Learning Guides</h6>
                                                 <h6 class="card-subtitle mb-1 text-muted">Folder</h6>  
@@ -197,7 +197,7 @@
                                     </a>
                                     <a href="#">
                                         <div class="d-flex border border-secondary rounded p-1 my-2">
-                                            <img src="../../img/folder.svg" class="mx-1"alt="" width="40" height="40">
+                                            <img src="../../img/folder.svg" class="mx-1" alt="" width="40" height="40">
                                             <div class="flex-column">
                                                 <h6 class="card-subtitle mb-1">1Q Slides</h6>
                                                 <h6 class="card-subtitle mb-1 text-muted">Folder</h6>  
@@ -206,7 +206,7 @@
                                     </a>
                                     <a href="#">
                                         <div class="d-flex border border-secondary rounded p-1 my-2">
-                                            <img src="../../img/folder.svg" class="mx-1"alt="" width="40" height="40">
+                                            <img src="../../img/folder.svg" class="mx-1" alt="" width="40" height="40">
                                             <div class="flex-column">
                                                 <h6 class="card-subtitle mb-1">1Q Sample Code</h6>
                                                 <h6 class="card-subtitle mb-1 text-muted">Folder</h6>  
@@ -227,7 +227,7 @@
                                     </a>
                                     <a href="#">
                                         <div class="d-flex border border-secondary rounded p-1 my-2">
-                                            <img src="../../img/checkmark.svg" class="mx-1"alt="" width="40" height="40">
+                                            <img src="../../img/checkmark.svg" class="mx-1" alt="" width="40" height="40">
                                             <div class="flex-column">
                                                 <h6 class="card-subtitle mb-1">1Q Bonus</h6>
                                                 <h6 class="card-subtitle mb-1 text-muted">Quiz</h6>  
@@ -239,7 +239,7 @@
                                     <h5>Lab Exercises (AA)</h5>
                                     <a href="#">
                                         <div class="d-flex border border-secondary rounded p-1 my-2">
-                                            <img src="../../img/checkmark.svg" class="mx-1"alt="" width="40" height="40">
+                                            <img src="../../img/checkmark.svg" class="mx-1" alt="" width="40" height="40">
                                             <div class="flex-column">
                                                 <h6 class="card-subtitle mb-1">AA1 - The Internet and Privacy</h6>
                                                 <h6 class="card-subtitle mb-1 text-muted">Submission Bin</h6>  
@@ -248,7 +248,7 @@
                                     </a>
                                     <a href="#">
                                         <div class="d-flex border border-secondary rounded p-1 my-2">
-                                            <img src="../../img/checkmark.svg" class="mx-1"alt="" width="40" height="40">
+                                            <img src="../../img/checkmark.svg" class="mx-1" alt="" width="40" height="40">
                                             <div class="flex-column">
                                                 <h6 class="card-subtitle mb-1">AA2 - My Section Schedule </h6>
                                                 <h6 class="card-subtitle mb-1 text-muted">Submission Bin</h6>  
@@ -260,7 +260,7 @@
                                     <h5>Project (SA)</h5>
                                     <a href="#">
                                         <div class="d-flex border border-secondary rounded p-1 my-2">
-                                            <img src="../../img/checkmark.svg" class="mx-1"alt="" width="40" height="40">
+                                            <img src="../../img/checkmark.svg" class="mx-1" alt="" width="40" height="40">
                                             <div class="flex-column">
                                                 <h6 class="card-subtitle mb-1">1Q Project: Magazine Website</h6>
                                                 <h6 class="card-subtitle mb-1 text-muted">Submission Bin</h6>  
@@ -273,7 +273,7 @@
                     </div>
                   </div>
             </main>
-        </article>
+        </div>
         <script src="../../login.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>    
     </body>
