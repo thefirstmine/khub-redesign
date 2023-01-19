@@ -2,4 +2,4 @@
 
 *Still incomplete.*
 
-Made by TheFirstMine (aka Julian)
+Made by Group 1 of 9 - Samat
